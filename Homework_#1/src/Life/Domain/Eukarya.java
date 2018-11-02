@@ -1,18 +1,33 @@
 package Life.Domain;
 
-public abstract class Eukarya {
+public class Eukarya {
     protected double weight;
     protected final long DNA;
+    protected boolean alive;
+
     protected static long count;
 
     public Eukarya(double weight) {
-        DNA = ++count;
+        this.DNA = ++count;
+        this.alive = true;
         this.weight = weight;
     }
 
-    public abstract void eat(Eukarya food);
+    public void eat(Eukarya food){
+        this.weight += food.weight;
 
-    public abstract void excrete();
+    }
 
-    public abstract Eukarya reproduce(Eukarya partner);
+    public void excrete() {
+        this.weight -= Math.random();
+    }
+
+    public Eukarya reproduce() {
+        this.weight /= 2;
+        return new Eukarya(this.weight);
+    }
+
+    public void die() {
+        this.alive = false;
+    }
 }
