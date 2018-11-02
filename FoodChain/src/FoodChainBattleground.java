@@ -8,7 +8,7 @@ public class FoodChainBattleground {
         Producer            Grass       = new Producer();
 
         System.out.println("Owl can "               + (Owl.canEat(Snake)            ? "" : "not ") + "eat a snake.");
-        System.out.println("Owl and Snake are "      + (Owl.siblings(Snake)          ? "" : "not ") + "siblings");
+        System.out.println("Owl and Snake are "     + (Owl.siblings(Snake)          ? "" : "not ") + "siblings");
         System.out.println("Snake can "             + (Snake.canEat(Owl)            ? "" : "not ") + "eat an owl.");
         System.out.println("Snake can "             + (Snake.canEat(Bluebird)       ? "" : "not ") + "eat a bluebird.");
         System.out.println("Snake can "             + (Snake.canEat(Snake2)         ? "" : "not ") + "eat an Snake2.");
