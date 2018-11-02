@@ -1,6 +1,5 @@
 package Life.Domain.Kingdom.Phylum.Class.Order.Family.Genus.Species;
 
-
 import Life.Domain.Eukarya;
 import Life.Domain.Kingdom.Phylum.Class.Order.Family.Genus.Loxodonta;
 
