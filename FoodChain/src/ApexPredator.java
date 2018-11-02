@@ -2,12 +2,12 @@ public class ApexPredator {
 
 
 
-    public boolean canEat(ApexPredator creature) {
-        return this.getClass().isInstance(creature) &&
-                !creature.getClass().isInstance(this);
+    public static boolean canEat(ApexPredator predator, ApexPredator creature) {
+        return predator.getClass().isInstance(creature) &&
+                !creature.getClass().isInstance(predator);
     }
 
-    public boolean siblings(ApexPredator creature) {
-        return this.getClass().equals(creature.getClass());
+    public static boolean siblings(ApexPredator creature1, ApexPredator creature2) {
+        return creature1.getClass().equals(creature2.getClass());
     }
 }
