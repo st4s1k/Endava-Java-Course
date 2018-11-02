@@ -3,51 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="96d05390-ce41-4914-bd36-4daddd345869" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Eukarya.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Animalia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Fungi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Eukarya.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Eukarya.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Apicomplexa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Ascomycota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Basidiomycota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Chordata.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Actinopterygii.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Agaricomycetes.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Dinophyceae.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Liliopsida.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Magnoliopsida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Mammalia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Agaricales.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Artiodactyla.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Asterales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Cyperales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Cypriniformes.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Dinamoebales.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Eucoccidiorida.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Aloaceae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Asteraceae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Atelidae.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Cyprinidae.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Elephantidae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Aloe.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Atelinae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Calvatia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Carassius.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Giraffa.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Homo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Lentinula.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Loxodonta.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Morchella.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Papaver.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Pfiesteria.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Plasmodium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AfricanElephant.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AloeVera.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AlpinePoppy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/CellFromHell.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Dandelion.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/GiantPuffball.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Giraffe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Goldfish.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Human.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/KissingBug.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Malaria.class" beforeDir="false" />
@@ -63,108 +44,20 @@
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Giraffidae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Hominidae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Lycoperdaceae.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Marasmiaceae.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Morchellaceae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Papaveraceae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Pfiesteriaceae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Plasmodiidae.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Poaceae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Family/Trypanosomatidae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Kinetplastida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Liliales.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Papaverales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Pezizales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Primates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Order/Proboscidea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Pezizomycotina.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Sporozoasida.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Class/Zoomastigophora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Magnoliophyta.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Pyrrophycophyta.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Phylum/Sarcomastigophora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Plantae.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework_#1/Life/Domain/Kingdom/Protozoa.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Life/Domain/Eukarya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Eukarya.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Animalia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Animalia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Fungi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Fungi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Apicomplexa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Apicomplexa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Ascomycota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Ascomycota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Basidiomycota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Basidiomycota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Chordata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Chordata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Actinopterygii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Actinopterygii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Agaricomycetes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Agaricomycetes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Dinophyceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Dinophyceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Liliopsida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Liliopsida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Magnoliopsida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Magnoliopsida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Mammalia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Mammalia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Agaricales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Agaricales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Artiodactyla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Artiodactyla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Asterales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Asterales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Cyperales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Cyperales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Cypriniformes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Cypriniformes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Dinamoebales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Dinamoebales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Eucoccidiorida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Eucoccidiorida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Aloaceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Aloaceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Asteraceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Asteraceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Atelidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Atelidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Cyprinidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Cyprinidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Elephantidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Elephantidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Aloe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Aloe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Atelinae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Atelinae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Calvatia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Calvatia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Carassius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Carassius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Giraffa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Giraffa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Homo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Homo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Lentinula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Lentinula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Loxodonta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Loxodonta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Morchella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Morchella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Papaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Papaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Pfiesteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Pfiesteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Plasmodium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Plasmodium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AfricanElephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AfricanElephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AloeVera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AloeVera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AlpinePoppy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AlpinePoppy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/CellFromHell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/CellFromHell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Dandelion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Dandelion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/GiantPuffball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/GiantPuffball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Giraffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Giraffe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Goldfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Goldfish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/KissingBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/KissingBug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Malaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Malaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Morel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Morel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/OpiumPoppy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/OpiumPoppy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/ShiitakeMushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/ShiitakeMushroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/SleepingSickness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/SleepingSickness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/SpiderMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/SpiderMonkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Wheat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Wheat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Taraxacum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Taraxacum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Triticum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Triticum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Trypanosoma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Trypanosoma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Giraffidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Giraffidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Hominidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Hominidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Lycoperdaceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Lycoperdaceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Marasmiaceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Marasmiaceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Morchellaceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Morchellaceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Papaveraceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Papaveraceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Pfiesteriaceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Pfiesteriaceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Plasmodiidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Plasmodiidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Poaceae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Poaceae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Trypanosomatidae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Trypanosomatidae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Kinetplastida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Kinetplastida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Liliales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Liliales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Papaverales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Papaverales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Pezizales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Pezizales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Primates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Primates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Proboscidea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Proboscidea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Pezizomycotina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Pezizomycotina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Sporozoasida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Sporozoasida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Zoomastigophora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Zoomastigophora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Magnoliophyta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Magnoliophyta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Pyrrophycophyta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Pyrrophycophyta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Sarcomastigophora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Sarcomastigophora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Plantae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Plantae.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Life/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Life/Life.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,37 +99,38 @@
     <session id="-1325819773">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="783" />
-          <entry key="jpg" value="7" />
+          <entry key="java" value="792" />
+          <entry key="jpg" value="8" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="7" />
-          <entry key="JAVA" value="783" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="792" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="1687" />
+          <entry key="java" value="2839" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1687" />
+          <entry key="JAVA" value="2839" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -246,45 +140,62 @@
     <favorites_list name="Endava_Java_Course_Homework_#1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Agaricomycetes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Liliopsida.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Pezizomycotina.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AlpinePoppy.java">
+        <entry file="file://$PROJECT_DIR$/src/Life/Domain/Eukarya.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="340">
+              <caret line="65" column="55" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
               <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Life/Life.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opium phylogenetic tree 2.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -308,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Loxodonta.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Fungi.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Animalia.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Sarcomastigophora.java" />
@@ -340,8 +250,6 @@
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Plasmodium.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Morchella.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Plantae.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Eukarya.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Dandelion.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AloeVera.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AfricanElephant.java" />
@@ -359,6 +267,9 @@
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/SleepingSickness.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/SpiderMonkey.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/Wheat.java" />
+        <option value="$PROJECT_DIR$/src/Life/Life.java" />
+        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java" />
+        <option value="$PROJECT_DIR$/src/Life/Domain/Eukarya.java" />
       </list>
     </option>
   </component>
@@ -373,7 +284,9 @@
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -382,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -401,104 +313,15 @@
               <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-              <item name="Phylum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-              <item name="Phylum" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-              <item name="Phylum" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-              <item name="Phylum" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Family" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-              <item name="Phylum" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Family" type="462c0819:PsiDirectoryNode" />
-              <item name="Genus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endava_Java_Course_Homework_#1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework_#1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Life" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Kingdom" type="462c0819:PsiDirectoryNode" />
-              <item name="Phylum" type="462c0819:PsiDirectoryNode" />
-              <item name="Class" type="462c0819:PsiDirectoryNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Family" type="462c0819:PsiDirectoryNode" />
-              <item name="Genus" type="462c0819:PsiDirectoryNode" />
-              <item name="Species" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541157564197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541167034364" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -518,6 +341,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Life" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Life.Life" />
+      <module name="Homework_#1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Life.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Life" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -533,8 +376,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.12580645" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32903227" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32903227" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.28744328" />
       <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
       <window_info id="Image Layers" order="2" />
@@ -542,7 +414,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
-      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32903227" />
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Dependency Viewer" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -563,7 +435,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -573,25 +445,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Triticum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Giraffa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,10 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,10 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,10 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,10 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,10 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,10 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,15 +526,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opium phylogenetic tree 2.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -734,10 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,47 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Plantae.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Fungi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Animalia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Eukarya.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AfricanElephant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -840,11 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,11 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,11 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,11 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,11 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,11 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,11 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,11 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,11 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,11 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,11 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,11 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,11 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,10 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,11 +719,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AlpinePoppy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1036,13 +750,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Species/AlpinePoppy.java">
+    <entry file="file://$PROJECT_DIR$/src/Life/Life.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Animalia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Fungi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Plantae.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Protozoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opium phylogenetic tree 2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Eukarya.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="65" column="55" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
           </folding>
         </state>
       </provider>
