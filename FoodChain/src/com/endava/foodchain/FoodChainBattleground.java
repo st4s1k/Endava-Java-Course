@@ -1,3 +1,5 @@
+package com.endava.foodchain;
+
 public class FoodChainBattleground {
     public static void main (String[] args) {
         ApexPredator        Owl         = new ApexPredator();
