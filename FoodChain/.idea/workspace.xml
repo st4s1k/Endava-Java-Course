@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96d05390-ce41-4914-bd36-4daddd345869" name="Default Changelist" comment="Minor updates.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/foodchain.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +84,7 @@
     <session id="1119349289">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -327,13 +325,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541235604856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541235677547" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Library\Documents\IdeaProjects\Endava_Java_Course\FoodChain" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -414,11 +417,19 @@
       <option name="project" value="LOCAL" />
       <updated>1541235497967</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Minor updates.">
+      <created>1541235654859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541235654859</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
@@ -432,7 +443,7 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -488,7 +499,8 @@
     <MESSAGE value="Almost done.2" />
     <MESSAGE value="Done koro4e." />
     <MESSAGE value="Changed package layout to com.endava.foodchain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed package layout to com.endava.foodchain" />
+    <MESSAGE value="Minor updates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor updates." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
