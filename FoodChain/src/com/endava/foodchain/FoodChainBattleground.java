@@ -9,6 +9,10 @@ public class FoodChainBattleground {
         PrimaryConsumer     Grasshopper = new PrimaryConsumer();
         Producer            Grass       = new Producer();
 
+        System.out.println("\n//////////////////////");
+        System.out.println("//    HOMEWORK#1    //");
+        System.out.println("//////////////////////\n");
+
         System.out.println("Owl can "              + (ApexPredator.canEat(Owl, Snake)            ? "" : "not ") + "eat a snake.");
         System.out.println("Owl and Snake are "    + (ApexPredator.siblings(Owl, Snake)          ? "" : "not ") + "siblings");
         System.out.println("Snake can "            + (ApexPredator.canEat(Snake, Owl)            ? "" : "not ") + "eat an owl.");
@@ -22,7 +26,7 @@ public class FoodChainBattleground {
         System.out.println("Grasshopper can "      + (ApexPredator.canEat(Grasshopper, Grass)    ? "" : "not ") + "eat a grass.");
         System.out.println("Grass can "            + (ApexPredator.canEat(Grass, Grasshopper)    ? "" : "not ") + "eat a grasshopper.");
 
-        // RESULTS
+        // OUTPUT:
 
         // Owl can eat a snake.
         // Owl and Snake are not siblings
@@ -36,7 +40,122 @@ public class FoodChainBattleground {
         // Grasshopper can not eat a bluebird.
         // Grasshopper can eat a grass.
         // Grass can not eat a grasshopper.
-        
-        // Process finished with exit code 0
+
+        System.out.println("\n//////////////////////");
+        System.out.println("//    HOMEWORK#2    //");
+        System.out.println("//////////////////////\n");
+
+        try {
+            System.out.print("[Owl -> Snake]    ");
+            Owl.eat(Snake);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Owl.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Snake -> Owl]    ");
+            Snake.eat(Owl);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Snake.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Snake -> Bluebird]    ");
+            Snake.eat(Bluebird);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Snake.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Snake -> Snake2]    ");
+            Snake.eat(Snake2);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Snake.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Bluebird -> Snake]    ");
+            Bluebird.eat(Snake);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Bluebird.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Bluebird -> Grasshopper]    ");
+            Bluebird.eat(Grasshopper);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Bluebird.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Grasshopper -> Bluebird]    ");
+            Grasshopper.eat(Bluebird);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Grasshopper.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Grasshopper -> Grass]    ");
+            Grasshopper.eat(Grass);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Grasshopper.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+        try {
+            System.out.print("[Grass -> Grasshopper]    ");
+            Grass.eat(Grasshopper);
+        }
+        catch (NotEatableException e) {
+            System.out.println(
+                Grass.getClass().getSimpleName() +
+                " cannot eat an object of class " +
+                e.getPrayClass()
+            );
+        }
+
+        // OUTPUT:
+
+        // OM NOM NOM...
+        // Snake cannot eat an object of class class com.endava.foodchain.ApexPredator
+        // OM NOM NOM...
+        // Snake cannot eat an object of class class com.endava.foodchain.TertiaryConsumer
+        // Bluebird cannot eat an object of class class com.endava.foodchain.TertiaryConsumer
+        // OM NOM NOM...
+        // Grasshopper cannot eat an object of class class com.endava.foodchain.SecondaryConsumer
+        // OM NOM NOM...
+        // Grass cannot eat an object of class class com.endava.foodchain.PrimaryConsumer
+
     }
 }
