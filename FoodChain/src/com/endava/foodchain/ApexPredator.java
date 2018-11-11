@@ -1,21 +1,25 @@
 package com.endava.foodchain;
 
-public class ApexPredator {
+
+public class ApexPredator extends FoodChain {
+
+    private String species;
+
+    public ApexPredator(String species) {
+        this.species = species;
+    }
 
     public void eat(ApexPredator pray) throws NotEatableException {
-        if (canEat(this, pray)) {
+        if (canEat(this, pray))
             System.out.println("OM NOM NOM...");
-        } else {
-            throw new NotEatableException(pray);
-        }
+        else
+            throw new NotEatableException(
+                    this.getClass().getSimpleName(),
+                    pray.getClass().getSimpleName()
+            );
     }
 
-    public static boolean canEat(ApexPredator predator, ApexPredator pray) {
-        return predator.getClass().isInstance(pray) &&
-                !pray.getClass().isInstance(predator);
-    }
-
-    public static boolean siblings(ApexPredator creature1, ApexPredator creature2) {
-        return creature1.getClass().equals(creature2.getClass());
+    public String getSpecies() {
+        return species;
     }
 }

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96d05390-ce41-4914-bd36-4daddd345869" name="Default Changelist" comment="Minor updates.">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/stanislav.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="96d05390-ce41-4914-bd36-4daddd345869" name="Default Changelist" comment="Homework #2">
+      <change afterPath="$PROJECT_DIR$/src/com/endava/foodchain/FoodChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/endava/foodchain/InvalidWordException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/ApexPredator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/ApexPredator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/FoodChainBattleground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/FoodChainBattleground.class" afterDir="false" />
@@ -14,6 +13,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/TertiaryConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/TertiaryConsumer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,28 +132,33 @@
     <session id="-1577775269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="622" />
+          <entry key="java" value="2214" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="622" />
+          <entry key="JAVA" value="2214" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -163,8 +172,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,8 +185,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +198,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,6 +213,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,8 +224,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            <state relative-caret-position="372">
+              <caret line="105" selection-start-line="105" selection-start-column="2" selection-end-line="113" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/InvalidWordException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,8 +248,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/FoodChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -217,21 +272,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="60">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodchain.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -247,6 +297,8 @@
     <findStrings>
       <find>abstract</find>
       <find>canBeEatenBy</find>
+      <find>str</find>
+      <find>Str</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,12 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Triticum.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Giraffa.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Homo.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Taraxacum.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Calvatia.java" />
-        <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Pfiesteria.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Papaver.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Atelinae.java" />
         <option value="$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Plasmodium.java" />
@@ -304,9 +350,15 @@
         <option value="$PROJECT_DIR$/src/PrimaryConsumer.java" />
         <option value="$PROJECT_DIR$/src/FoodChainBattleground.java" />
         <option value="$PROJECT_DIR$/src/ApexPredator.java" />
-        <option value="$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java" />
-        <option value="$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/FoodChain.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/InvalidWordException.java" />
         <option value="$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/Producer.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java" />
       </list>
     </option>
   </component>
@@ -375,12 +427,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541694240281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541961510381" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -479,26 +531,33 @@
       <option name="project" value="LOCAL" />
       <updated>1541235654859</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework #2">
+      <created>1541694290396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541694290396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.28863636" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.23787878" />
       <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50240386" side_tool="true" weight="0.26096824" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.46935484" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.46915585" />
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Dependency Viewer" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.75" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.75" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -555,15 +614,14 @@
     <MESSAGE value="Done koro4e." />
     <MESSAGE value="Changed package layout to com.endava.foodchain" />
     <MESSAGE value="Minor updates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor updates." />
+    <MESSAGE value="Homework #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework #2" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Aloe.java" />
-    <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Ascomycota.java" />
     <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Taraxacum.java" />
     <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Genus/Loxodonta.java" />
     <entry file="file://$PROJECT_DIR$/src/Life/Domain/Kingdom/Phylum/Class/Order/Family/Aloaceae.java" />
@@ -605,40 +663,72 @@
     <entry file="file://$PROJECT_DIR$/src/Animal.java" />
     <entry file="file://$PROJECT_DIR$/src/Decomposer.java" />
     <entry file="file://$PROJECT_DIR$/out/production/FoodChain/ApexPredator.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java">
+    <entry file="file://$PROJECT_DIR$/foodchain.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/FoodChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/InvalidWordException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodchain.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,20 +736,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="372">
+          <caret line="105" selection-start-line="105" selection-start-column="2" selection-end-line="113" selection-end-column="65" />
         </state>
       </provider>
     </entry>

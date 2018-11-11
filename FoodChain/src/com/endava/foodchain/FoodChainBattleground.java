@@ -1,30 +1,76 @@
 package com.endava.foodchain;
 
-public class FoodChainBattleground {
+class FoodChainBattleground {
+
+    static final String vowels = "AEIOUWYaeiouwy";
+//  static final String consonants = "BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz";
+
+    static boolean isAlpha(String str) {
+        if (str != null && str.length() > 0) {
+            for (int i = 0; i < str.length(); i++) {
+                if (!Character.isLetter(str.charAt(i)))
+                    return false;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    static String getCorrectArticle(String word) throws InvalidWordException {
+        if (!isAlpha(word))
+            throw new InvalidWordException(word);
+        if (vowels.indexOf(word.charAt(0)) != -1)
+            return "an";
+        else
+            return "a";
+    }
+
+    static void tryToEat(ApexPredator predator, ApexPredator pray) {
+        try {
+            System.out.print("[" + predator.getSpecies() + " -> " + pray.getSpecies() + "]    ");
+            predator.eat(pray);
+        } catch (NotEatableException e) {
+            StringBuilder msg = new StringBuilder();
+            try {
+                msg.append(e.getPredatorClass());
+                msg.append(" cannot eat ");
+                msg.append(getCorrectArticle(e.getPrayClass()));
+                msg.append(" ");
+                msg.append(e.getPrayClass());
+            } catch (InvalidWordException iwe) {
+                msg.append("An exception occured while trying to parse the word \"");
+                msg.append(e.getPrayClass());
+                msg.append("\"");
+            }
+            System.out.println(msg.toString());
+        }
+    }
+
     public static void main (String[] args) {
-        ApexPredator        Owl         = new ApexPredator();
-        TertiaryConsumer    Snake       = new TertiaryConsumer();
-        TertiaryConsumer    Snake2      = new TertiaryConsumer();
-        SecondaryConsumer   Bluebird    = new SecondaryConsumer();
-        PrimaryConsumer     Grasshopper = new PrimaryConsumer();
-        Producer            Grass       = new Producer();
+
+        ApexPredator        owl           = new ApexPredator("Owl");
+        TertiaryConsumer    snake         = new TertiaryConsumer("Snake");
+        TertiaryConsumer    snake2        = new TertiaryConsumer("Snake2");
+        SecondaryConsumer   bluebird      = new SecondaryConsumer("Bluebird");
+        PrimaryConsumer     grasshopper   = new PrimaryConsumer("Grasshopper");
+        Producer            grass         = new Producer("Grass");
 
         System.out.println("\n//////////////////////");
         System.out.println("//    HOMEWORK#1    //");
         System.out.println("//////////////////////\n");
 
-        System.out.println("Owl can "              + (ApexPredator.canEat(Owl, Snake)            ? "" : "not ") + "eat a snake.");
-        System.out.println("Owl and Snake are "    + (ApexPredator.siblings(Owl, Snake)          ? "" : "not ") + "siblings");
-        System.out.println("Snake can "            + (ApexPredator.canEat(Snake, Owl)            ? "" : "not ") + "eat an owl.");
-        System.out.println("Snake can "            + (ApexPredator.canEat(Snake, Bluebird)       ? "" : "not ") + "eat a bluebird.");
-        System.out.println("Snake can "            + (ApexPredator.canEat(Snake, Snake2)         ? "" : "not ") + "eat an Snake2.");
-        System.out.println("Snake2 can "           + (ApexPredator.canEat(Snake2, Snake)         ? "" : "not ") + "eat a snake.");
-        System.out.println("Snake and Snake2 are " + (ApexPredator.siblings(Snake2, Snake)       ? "" : "not ") + "siblings");
-        System.out.println("Bluebird can "         + (ApexPredator.canEat(Bluebird, Snake)       ? "" : "not ") + "eat a snake.");
-        System.out.println("Bluebird can "         + (ApexPredator.canEat(Bluebird, Grasshopper) ? "" : "not ") + "eat a grasshopper.");
-        System.out.println("Grasshopper can "      + (ApexPredator.canEat(Grasshopper, Bluebird) ? "" : "not ") + "eat a bluebird.");
-        System.out.println("Grasshopper can "      + (ApexPredator.canEat(Grasshopper, Grass)    ? "" : "not ") + "eat a grass.");
-        System.out.println("Grass can "            + (ApexPredator.canEat(Grass, Grasshopper)    ? "" : "not ") + "eat a grasshopper.");
+        System.out.println("Owl can "              + (ApexPredator.canEat(owl, snake)            ? "" : "not ") + "eat a snake.");
+        System.out.println("Owl and Snake are "    + (ApexPredator.siblings(owl, snake)          ? "" : "not ") + "siblings");
+        System.out.println("Snake can "            + (ApexPredator.canEat(snake, owl)            ? "" : "not ") + "eat an owl.");
+        System.out.println("Snake can "            + (ApexPredator.canEat(snake, bluebird)       ? "" : "not ") + "eat a bluebird.");
+        System.out.println("Snake can "            + (ApexPredator.canEat(snake, snake2)         ? "" : "not ") + "eat an Snake2.");
+        System.out.println("Snake2 can "           + (ApexPredator.canEat(snake2, snake)         ? "" : "not ") + "eat a snake.");
+        System.out.println("Snake and Snake2 are " + (ApexPredator.siblings(snake2, snake)       ? "" : "not ") + "siblings");
+        System.out.println("Bluebird can "         + (ApexPredator.canEat(bluebird, snake)       ? "" : "not ") + "eat a snake.");
+        System.out.println("Bluebird can "         + (ApexPredator.canEat(bluebird, grasshopper) ? "" : "not ") + "eat a grasshopper.");
+        System.out.println("Grasshopper can "      + (ApexPredator.canEat(grasshopper, bluebird) ? "" : "not ") + "eat a bluebird.");
+        System.out.println("Grasshopper can "      + (ApexPredator.canEat(grasshopper, grass)    ? "" : "not ") + "eat a grass.");
+        System.out.println("Grass can "            + (ApexPredator.canEat(grass, grasshopper)    ? "" : "not ") + "eat a grasshopper.");
 
         // OUTPUT:
 
@@ -45,117 +91,27 @@ public class FoodChainBattleground {
         System.out.println("//    HOMEWORK#2    //");
         System.out.println("//////////////////////\n");
 
-        try {
-            System.out.print("[Owl -> Snake]    ");
-            Owl.eat(Snake);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Owl.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Snake -> Owl]    ");
-            Snake.eat(Owl);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Snake.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Snake -> Bluebird]    ");
-            Snake.eat(Bluebird);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Snake.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Snake -> Snake2]    ");
-            Snake.eat(Snake2);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Snake.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Bluebird -> Snake]    ");
-            Bluebird.eat(Snake);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Bluebird.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Bluebird -> Grasshopper]    ");
-            Bluebird.eat(Grasshopper);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Bluebird.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Grasshopper -> Bluebird]    ");
-            Grasshopper.eat(Bluebird);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Grasshopper.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Grasshopper -> Grass]    ");
-            Grasshopper.eat(Grass);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Grasshopper.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
-        try {
-            System.out.print("[Grass -> Grasshopper]    ");
-            Grass.eat(Grasshopper);
-        }
-        catch (NotEatableException e) {
-            System.out.println(
-                Grass.getClass().getSimpleName() +
-                " cannot eat an object of class " +
-                e.getPrayClass()
-            );
-        }
+        tryToEat(owl, snake);
+        tryToEat(snake, owl);
+        tryToEat(snake, bluebird);
+        tryToEat(snake, snake2);
+        tryToEat(bluebird, snake);
+        tryToEat(bluebird, grasshopper);
+        tryToEat(grasshopper, bluebird);
+        tryToEat(grasshopper, grass);
+        tryToEat(grass, grasshopper);
 
         // OUTPUT:
 
-        // OM NOM NOM...
-        // Snake cannot eat an object of class class com.endava.foodchain.ApexPredator
-        // OM NOM NOM...
-        // Snake cannot eat an object of class class com.endava.foodchain.TertiaryConsumer
-        // Bluebird cannot eat an object of class class com.endava.foodchain.TertiaryConsumer
-        // OM NOM NOM...
-        // Grasshopper cannot eat an object of class class com.endava.foodchain.SecondaryConsumer
-        // OM NOM NOM...
-        // Grass cannot eat an object of class class com.endava.foodchain.PrimaryConsumer
+        // [Owl -> Snake]    OM NOM NOM...
+        // [Snake -> Owl]    TertiaryConsumer cannot eat an ApexPredator
+        // [Snake -> Bluebird]    OM NOM NOM...
+        // [Snake -> Snake2]    TertiaryConsumer cannot eat a TertiaryConsumer
+        // [Bluebird -> Snake]    SecondaryConsumer cannot eat a TertiaryConsumermer
+        // [Bluebird -> Grasshopper]    OM NOM NOM...
+        // [Grasshopper -> Bluebird]    PrimaryConsumer cannot eat a SecondaryConsumeronsumer
+        // [Grasshopper -> Grass]    OM NOM NOM...
+        // [Grass -> Grasshopper]    Producer cannot eat a PrimaryConsumer
 
     }
 }
