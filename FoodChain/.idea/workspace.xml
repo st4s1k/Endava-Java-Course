@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96d05390-ce41-4914-bd36-4daddd345869" name="Default Changelist" comment="Homework #2">
-      <change afterPath="$PROJECT_DIR$/src/com/endava/foodchain/FoodChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/endava/foodchain/InvalidWordException.java" afterDir="false" />
+    <list default="true" id="96d05390-ce41-4914-bd36-4daddd345869" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/ApexPredator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/ApexPredator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/FoodChainBattleground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/FoodChainBattleground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/PrimaryConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/PrimaryConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/SecondaryConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/SecondaryConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/TertiaryConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodChain/com/endava/foodchain/TertiaryConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/ApexPredator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/NotEatableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/PrimaryConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/SecondaryConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/endava/foodchain/TertiaryConsumer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,13 +128,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2214" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2214" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -225,7 +211,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
-              <caret line="105" selection-start-line="105" selection-start-column="2" selection-end-line="113" selection-end-column="65" />
+              <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -432,7 +418,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541961510381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541961666067" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -538,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541694290396</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Made some improvements based on teacher's recommendations.">
+      <created>1541961658864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541961658864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -615,7 +608,8 @@
     <MESSAGE value="Changed package layout to com.endava.foodchain" />
     <MESSAGE value="Minor updates." />
     <MESSAGE value="Homework #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework #2" />
+    <MESSAGE value="Made some improvements based on teacher's recommendations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made some improvements based on teacher's recommendations." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -759,7 +753,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/endava/foodchain/FoodChainBattleground.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
-          <caret line="105" selection-start-line="105" selection-start-column="2" selection-end-line="113" selection-end-column="65" />
+          <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
         </state>
       </provider>
     </entry>

@@ -29,7 +29,7 @@ class FoodChainBattleground {
         try {
             System.out.print("[" + predator.getSpecies() + " -> " + pray.getSpecies() + "]    ");
             predator.eat(pray);
-        } catch (NotEatableException e) {
+        } catch (NotEatableException e1) {
             StringBuilder msg = new StringBuilder();
             try {
                 msg.append(e.getPredatorClass());
@@ -37,9 +37,9 @@ class FoodChainBattleground {
                 msg.append(getCorrectArticle(e.getPrayClass()));
                 msg.append(" ");
                 msg.append(e.getPrayClass());
-            } catch (InvalidWordException iwe) {
+            } catch (InvalidWordException e2) {
                 msg.append("An exception occured while trying to parse the word \"");
-                msg.append(e.getPrayClass());
+                msg.append(e2.getWord());
                 msg.append("\"");
             }
             System.out.println(msg.toString());
