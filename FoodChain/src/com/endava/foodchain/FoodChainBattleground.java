@@ -26,19 +26,26 @@ class FoodChainBattleground {
     }
 
     static void tryToEat(ApexPredator predator, ApexPredator pray) {
+        StringBuilder info = new StringBuilder();
+        info.append("[");
+        info.append(predator.getSpecies());
+        info.append(" -> ");
+        info.append(pray.getSpecies());
+        info.append("]    ");
+        System.out.print(info.toString());
         try {
-            System.out.print("[" + predator.getSpecies() + " -> " + pray.getSpecies() + "]    ");
             predator.eat(pray);
         } catch (NotEatableException e1) {
             StringBuilder msg = new StringBuilder();
             try {
+                String article = getCorrectArticle(e1.getPrayClass());
                 msg.append(e1.getPredatorClass());
                 msg.append(" cannot eat ");
-                msg.append(getCorrectArticle(e1.getPrayClass()));
+                msg.append(article);
                 msg.append(" ");
                 msg.append(e1.getPrayClass());
             } catch (InvalidWordException e2) {
-                msg.append("An exception occured while trying to parse the word \"");
+                msg.append("\nAn exception occured while trying to parse the word \"");
                 msg.append(e2.getWord());
                 msg.append("\"");
             }

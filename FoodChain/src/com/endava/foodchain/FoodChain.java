@@ -1,5 +1,7 @@
 package com.endava.foodchain;
 
+// Service class
+
 public class FoodChain {
     public static boolean canEat(ApexPredator predator, ApexPredator pray) {
         return predator.getClass().isInstance(pray) &&
