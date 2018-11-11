@@ -32,11 +32,11 @@ class FoodChainBattleground {
         } catch (NotEatableException e1) {
             StringBuilder msg = new StringBuilder();
             try {
-                msg.append(e.getPredatorClass());
+                msg.append(e1.getPredatorClass());
                 msg.append(" cannot eat ");
-                msg.append(getCorrectArticle(e.getPrayClass()));
+                msg.append(getCorrectArticle(e1.getPrayClass()));
                 msg.append(" ");
-                msg.append(e.getPrayClass());
+                msg.append(e1.getPrayClass());
             } catch (InvalidWordException e2) {
                 msg.append("An exception occured while trying to parse the word \"");
                 msg.append(e2.getWord());
