@@ -1,22 +1,29 @@
 package com.endava.streamapi;
 
-import java.time.LocalDateTime;
-import lombok.Data;
+import java.time.LocalDate;
+import java.util.Comparator;
 
-@Data public class User {
-    private final String name;
-    private boolean isActive;
-    private String[] roles;
-    private String[] emails;
-    private Double balance;
-    private final LocalDateTime registrationDate;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-    public User(String name, String[] roles, String[] emails) {
+@Getter
+@Setter
+@ToString(includeFieldNames = false)
+public class User {
+    private       Role      role;
+    private       Boolean   isActive;
+    private final LocalDate registrationDate;
+    private       Double    balance;
+    private final String    name;
+    private       String    email;
+
+    public User(String name, Role role, String email) {
         this.name = name;
         isActive = true;
-        this.roles = roles;
-        this.emails = emails;
+        this.role = role;
+        this.email = email;
         balance = 0d;
-        registrationDate = LocalDateTime.now();
+        registrationDate = LocalDate.now();
     }
 }
