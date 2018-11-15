@@ -23,9 +23,9 @@ public class Demo {
 
         User user = new User();
 
-//        Double uName = user.getWeight();
-//
-//        System.out.println(user.getWeight());
+        Double uName = user.getWeight();
+
+        System.out.println(user.getWeight());
 
         Class<?> userClass = User.class;
 
