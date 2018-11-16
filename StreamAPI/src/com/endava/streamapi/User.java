@@ -1,7 +1,6 @@
 package com.endava.streamapi;
 
 import java.time.LocalDate;
-import java.util.Comparator;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -24,6 +23,6 @@ public class User {
         this.role = role;
         this.email = email;
         balance = 0d;
-        registrationDate = LocalDate.now();
+        registrationDate = LocalDate.now().minusYears(Math.round(Math.random()*2));
     }
 }
