@@ -8,7 +8,6 @@ import java.util.stream.IntStream;
 public class Main {
 
     public static void main(String[] args) {
-        // List<User> users = new ArrayList<>();
 
         User u0 = new User("UserZero" , Role.JUNIOR   , "0@gmail.com"  );
         User u1 = new User("UserOne"  , Role.MIDDLE   , "1@yahoo.com"   );
@@ -27,56 +26,38 @@ public class Main {
         System.out.println("\n\tUsers sorted by role:\n");
         List<User> usersSortedByRole = List.of(u0, u2, u4).stream()
                 .sorted(Comparator.comparing(User::getRole))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (User user: usersSortedByRole) {
-            System.out.println(user);
-        }
 
         System.out.println("\n\tUsers sorted by isActive:\n");
         List<User> usersSortedByIsActive = List.of(u1, u1, u3, u4).stream()
                 .sorted(Comparator.comparing(User::getIsActive))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (User user: usersSortedByIsActive) {
-            System.out.println(user);
-        }
 
         System.out.println("\n\tUsers sorted by registrationDate:\n");
         List<User> usersSortedByRegistrationDate = List.of(u0, u1, u3, u4, u2, u4).stream()
                 .sorted(Comparator.comparing(User::getRegistrationDate))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (User user: usersSortedByRegistrationDate) {
-            System.out.println(user);
-        }
 
         System.out.println("\n\tUsers sorted by balance:\n");
         List<User> usersSortedByBalance = List.of(u1, u2, u2, u4).stream()
                 .sorted(Comparator.comparing(User::getBalance))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (User user: usersSortedByBalance) {
-            System.out.println(user);
-        }
 
         System.out.println("\n\tUsers sorted by name:\n");
         List<User> usersSortedByName = List.of(u0, u1, u2, u4).stream()
                 .sorted(Comparator.comparing(User::getName))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (User user: usersSortedByName) {
-            System.out.println(user);
-        }
 
         System.out.println("\n\tUsers sorted by email:\n");
         List<User> usersSortedByEmail = List.of(u3, u1, u2, u4).stream()
                 .sorted(Comparator.comparing(User::getEmail))
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (User user: usersSortedByEmail) {
-            System.out.println(user);
-        }
 
         List<User> userList = List.of(u0, u1, u2, u3, u4);
 
@@ -114,6 +95,7 @@ public class Main {
         for (User u: subSets1.get(0)) {
             System.out.println(u);
         }
+
         System.out.println("\n\tActive:\n");
         for (User u: subSets1.get(1)) {
             System.out.println(u);
@@ -122,19 +104,18 @@ public class Main {
         System.out.println("\n\t*) Get list of emails");
 
         System.out.println("\n\tList of emails:\n");
+
         List<String> usersListOfEmails = userList
                 .stream()
                 .map(User::getEmail)
+                .peek(System.out::println)
                 .collect(Collectors.toList());
-
-        for (String email: usersListOfEmails) {
-            System.out.println(email);
-        }
 
         System.out.println("\n\t*) Group users by registration date");
 
         Map<LocalDate, List<User>> groups2 = userList.stream()
                 .collect(Collectors.groupingBy(User::getRegistrationDate));
+
         List<List<User>> subSets2 = new ArrayList<>(groups2.values());
 
         for (List<User> ul: subSets2){
@@ -168,13 +149,12 @@ public class Main {
 
         System.out.println("\n\t*) Get set from list");
 
-        Set<User> setOfUsers = userList.stream().collect(Collectors.toSet());
-
         System.out.println("\n\tSet of users:\n");
 
-        for (User u: setOfUsers) {
-            System.out.println(u);
-        }
+        Set<User> setOfUsers = userList
+                .stream()
+                .peek(System.out::println)
+                .collect(Collectors.toSet());
 
         long numberOfNotActiveUsers = userList.stream().filter(u -> !u.getIsActive()).count();
 
@@ -257,6 +237,7 @@ public class Main {
         System.out.println("\n\tCalculate factorial using IntStream.");
 
         var number = 3;
+
         var factorial = IntStream.rangeClosed(1, number).reduce(1, (x, y) -> x*y);
 
         System.out.println("\n\tFactorial for " + number + " is: " + factorial + "\n");
