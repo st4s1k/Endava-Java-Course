@@ -1,0 +1,6 @@
+
+=squid:S1481""&Remove this unused "o" local variable.( û
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î×Úıÿÿÿÿ
+Lsquid:S1854""5Remove this useless assignment to local variable "o".( û
+[squid:CallToDeprecatedMethod!"3Remove this use of "defineClass"; it is deprecated.(Ó­É¡
