@@ -1,0 +1,12 @@
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        ClasspathScanner cps = new ClasspathScanner();
+
+        List<Object> ol = cps.getObjects("");
+
+    }
+}

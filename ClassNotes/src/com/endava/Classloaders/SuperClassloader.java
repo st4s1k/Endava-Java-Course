@@ -2,11 +2,15 @@ package com.endava.Classloaders;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Constructor;
 import java.net.URL;
 import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
 import java.util.Enumeration;
 
 public class SuperClassloader extends ClassLoader {
+
+
     void init() {
         try {
             Enumeration<URL> resources = ClassLoader.getSystemClassLoader().getResources("");
@@ -16,22 +20,25 @@ public class SuperClassloader extends ClassLoader {
                 System.out.println(file);
                 traverse(file);
             }
-        } catch (IOException | IllegalAccessException | InstantiationException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    void traverse(File root) throws IOException, IllegalAccessException, InstantiationException {
+    void traverse(File root) throws IOException {
         if (root.isDirectory()) {
             final File[] rootFiles = root.listFiles();
-            for (File rootFile: rootFiles) {
-                traverse(rootFile);
-            }
+            if (rootFiles != null) {
+                for (File rootFile: rootFiles) {
+                    traverse(rootFile);
+                }
+            } else throw new NoSuchFileException(root.getAbsolutePath());
         } else {
             if (root.getName().endsWith(".class")) {
                 final byte[] classBytes = Files.readAllBytes(root.toPath());
-                final Class<?> loadedClass = defineClass(classBytes, 0, classBytes.length);
-                final Object o = loadedClass.newInstance();
+                final Class<?> loadedClass = defineClass(null, classBytes, 0, classBytes.length);
+                final Constructor<?>[] constructors = loadedClass.getDeclaredConstructors();
+                if (constructors.length == 0)
 
             }
         }
