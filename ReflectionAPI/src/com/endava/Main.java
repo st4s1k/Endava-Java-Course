@@ -8,7 +8,8 @@ public class Main {
 
         ClasspathScanner cps = new ClasspathScanner();
 
-        List<Object> ol = cps.getObjects("");
+        List<Object> ol = cps.getObjects("com/endava/SomeOtherPackage");
 
+        System.out.println(ol.size());
     }
 }
