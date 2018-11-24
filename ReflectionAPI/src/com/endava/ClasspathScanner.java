@@ -28,6 +28,7 @@ public class ClasspathScanner extends ClassLoader {
         info.append(file.getName()).append('\t').append(file).append('\n');
 
         System.out.print(info);
+
     }
 
     public List<Object> getObjects(String path) {
@@ -59,6 +60,7 @@ public class ClasspathScanner extends ClassLoader {
         }
 
         return objects;
+
     }
 
     public List<Object> scan(File root)
@@ -73,29 +75,35 @@ public class ClasspathScanner extends ClassLoader {
         List<Object> objecs = new ArrayList<>();
 
         if (root.isDirectory()) {
+
             final File[] rootFiles = root.listFiles();
+
             if (rootFiles == null) return objecs;
-            for (File rootFile: rootFiles) {
-                scan(rootFile);
-            }
+
+            for (File rootFile: rootFiles)
+                objecs.addAll(scan(rootFile));
+
         }
         else if (root.getName().endsWith(".class")) {
+
             final byte[] classBytes = Files.readAllBytes(root.toPath());
+
             final Class<?> loadedClass = defineClass(
                     null,
                     classBytes,
                     0,
                     classBytes.length
             );
+
             final Constructor<?>[] constructors = loadedClass.getConstructors();
+
             if (
                     constructors != null &&
                     constructors.length > 0 &&
                     loadedClass.isAnnotationPresent(Managed.class)
             ) {
-                Object o = constructors[0].newInstance();
 
-                Boolean
+                Object o = constructors[0].newInstance();
 
                 Field[] fields = o.getClass().getDeclaredFields();
 
@@ -105,7 +113,6 @@ public class ClasspathScanner extends ClassLoader {
                     {
                         Object value = field.getAnnotation(DefaultValue.class).value();
                         field.set(o, value);
-                        System.out.println(field + "\t" + value);
                     }
                 }
 

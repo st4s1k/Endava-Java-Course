@@ -10,6 +10,6 @@ public class Main {
 
         List<Object> ol = cps.getObjects("com/endava/SomeOtherPackage");
 
-        System.out.println(ol.size());
+        System.out.println("\n\t" + ol);
     }
 }
