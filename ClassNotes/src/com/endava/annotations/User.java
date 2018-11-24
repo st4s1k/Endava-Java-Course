@@ -1,4 +1,4 @@
-package com.endava.Annotations;
+package com.endava.annotations;
 
 import lombok.Data;
 

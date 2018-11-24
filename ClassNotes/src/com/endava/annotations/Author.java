@@ -1,12 +1,9 @@
-package com.endava.Annotations;
-
-import lombok.Data;
+package com.endava.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.time.LocalDate;
 
 @interface Author {
     String value();

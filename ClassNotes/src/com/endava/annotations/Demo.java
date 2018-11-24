@@ -1,4 +1,4 @@
-package com.endava.Annotations;
+package com.endava.annotations;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

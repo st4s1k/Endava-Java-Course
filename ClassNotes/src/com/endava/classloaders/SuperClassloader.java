@@ -1,4 +1,4 @@
-package com.endava.Classloaders;
+package com.endava.classloaders;
 
 import java.io.File;
 import java.io.IOException;
@@ -38,7 +38,7 @@ public class SuperClassloader extends ClassLoader {
                 final byte[] classBytes = Files.readAllBytes(root.toPath());
                 final Class<?> loadedClass = defineClass(null, classBytes, 0, classBytes.length);
                 final Constructor<?>[] constructors = loadedClass.getDeclaredConstructors();
-                if (constructors.length == 0)
+//                if (constructors.length == 0)
 
             }
         }
