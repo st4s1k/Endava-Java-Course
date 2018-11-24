@@ -10,4 +10,12 @@ public class SomeClass {
     private String field1;
 
     private String field2;
+
+    @Override
+    public String toString() {
+        return "SomeClass{" +
+                "field1='" + field1 + '\'' +
+                ", field2='" + field2 + '\'' +
+                '}';
+    }
 }
