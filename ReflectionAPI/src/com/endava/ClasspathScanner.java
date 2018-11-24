@@ -1,7 +1,5 @@
 package com.endava;
 
-import com.endava.SomeOtherPackage.SomeClass;
-
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
@@ -13,19 +11,17 @@ import java.util.*;
 
 public class ClasspathScanner extends ClassLoader {
 
-    private static void fileInfo(String prefix, File file) {
-
+    private static void fileInfo(String id, File file) {
         StringBuilder info = new StringBuilder();
 
-        info.append("\n\t").append(prefix).append('\t');
-
-        if (file.isDirectory()) info.append("d").append('\t');
-
-        if (file.isFile())      info.append("f").append('\t');
-
-        if (file.exists())      info.append("e").append('\t');
-
-        info.append(file.getName()).append('\t').append(file).append('\n');
+        info
+                .append("\n\t")
+                .append(id).append('\t')
+                .append(file.exists() ? " e" : "!e").append('\t')
+                .append(file.isDirectory() ? " d" : "!d").append('\t')
+                .append(file.isFile() ? " f" : "!f").append('\t')
+                .append(file.getName()).append('\t')
+                .append(file).append('\n');
 
         System.out.print(info);
     }
@@ -49,10 +45,10 @@ public class ClasspathScanner extends ClassLoader {
                 objects.addAll(scan(file));
             }
 
-        } catch (IOException
-                | IllegalAccessException
-                | InvocationTargetException
-                | InstantiationException e) {
+        } catch (IOException |
+                IllegalAccessException |
+                InvocationTargetException |
+                InstantiationException e) {
 
             e.printStackTrace();
 
@@ -61,14 +57,12 @@ public class ClasspathScanner extends ClassLoader {
         return objects;
     }
 
-    public List<Object> scan(File root)
-            throws
-            IOException,
-            IllegalAccessException,
-            InvocationTargetException,
-            InstantiationException {
+    public List<Object> scan(File root) throws IOException,
+                                                IllegalAccessException,
+                                                InvocationTargetException,
+                                                InstantiationException {
 
-        fileInfo("      scan():", root);
+        fileInfo("scan():", root);
 
         List<Object> objecs = new ArrayList<>();
 
@@ -82,20 +76,18 @@ public class ClasspathScanner extends ClassLoader {
         else if (root.getName().endsWith(".class")) {
             final byte[] classBytes = Files.readAllBytes(root.toPath());
             final Class<?> loadedClass = defineClass(
-                    null,
+                    root.getName().substring(0, root.getName().length() - ".class".length()),
                     classBytes,
                     0,
                     classBytes.length
             );
             final Constructor<?>[] constructors = loadedClass.getConstructors();
-            if (
-                    constructors != null &&
+            if (constructors != null &&
                     constructors.length > 0 &&
-                    loadedClass.isAnnotationPresent(Managed.class)
+                    loadedClass.isAnnotationPresent(Managed.class) &&
+                    loadedClass.isAnnotationPresent(DefaultValue.class)
             ) {
                 Object o = constructors[0].newInstance();
-
-                Boolean
 
                 Field[] fields = o.getClass().getDeclaredFields();
 
