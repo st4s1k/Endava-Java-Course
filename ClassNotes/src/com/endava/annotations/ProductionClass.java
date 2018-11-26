@@ -1,7 +1,7 @@
 package com.endava.annotations;
 
 @Author("Debil")
-@Deprecated
+//@Deprecated
 public class ProductionClass {
 
 }

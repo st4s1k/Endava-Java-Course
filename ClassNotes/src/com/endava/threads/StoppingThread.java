@@ -11,44 +11,44 @@ public class StoppingThread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        Thread thread1 = new Thread(() -> {
-            try {
-                Thread.sleep(100L);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-            System.out.println("Hello!");
-        });
+//        Thread thread = new Thread(() -> {
+//            try {
+//                Thread.sleep(100L);
+//            } catch (InterruptedException e) {
+//                Thread.currentThread().interrupt();
+//            }
+//            System.out.println("Hello!");
+//        });
+//
+//        thread.start();
+//
+//        Thread.sleep(100L);
+//
+//        thread.interrupt();
 
-        thread1.start();
+//        StoppingThread stoppingThread = new StoppingThread();
+//
+//        Thread thread = new Thread(() -> {
+//            while (!Thread.currentThread().interrupted()) {
+//                stoppingThread.foo();
+//            }
+//        });
+//
+//        thread.start();
+//
+//        Thread.sleep(100L);
+//
+//        thread.interrupt();
 
-        Thread.sleep(100L);
-
-        thread1.interrupt();
-
-        StoppingThread stoppingThread = new StoppingThread();
-
-        Thread thread2 = new Thread(() -> {
-            while (!Thread.currentThread().interrupted()) {
-                stoppingThread.foo();
-            }
-        });
-
-        thread2.start();
-
-        Thread.sleep(100L);
-
-        thread2.interrupt();
-
-        Thread thread3 = new Thread(() -> {
+        Thread thread = new Thread(() -> {
             while (true) {
                 System.out.println("Hello from Daemon");
             }
         });
 
-        thread3.setDaemon(true);
+        thread.setDaemon(true);
 
-        thread3.start();
+        thread.start();
 
         Thread.sleep(100L);
     }
