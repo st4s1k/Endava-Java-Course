@@ -19,6 +19,7 @@ public class Concurrency {
 
             executor.execute(adder);
         }
+        executor.shutdown();
 
         executor.shutdown();
 
